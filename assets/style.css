@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Sora","Helvetica";
+    color: white;
+}
+
+/* default */
+.container{
+    background: #575756;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+}
+
+/*  */
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .resource{
+    padding: 0.5em 2em;
+    background-color: #eb510b;
+    border-radius: 20px;
+}
+
+main{
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .text-area{
+    width: 40%;
+}
+
+.content .text-area h4{
+    color: rgb(221, 221, 31);
+}
+
+.content .text-area h2{
+    width: 50%;
+    margin: 0.2em 0;
+    font-size: 2.9rem;
+}
+
+.content .text-area span{
+    display: inline-block;
+    height: 2px;
+    width: 20%;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+main .head-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.search input{
+    padding: 1em 2em;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    margin-right: 8px;
+}
+
+
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.data{
+    display: flex;
+}
+
+.data .with-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+.with-text .pd{
+    margin: 1em 0;
+    padding: 1em 4em;
+    border-radius: 10px;
+    background-color: #020202;
+}
+
+.with-map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.with-map .data-result{
+    display: flex;
+}
+
+.data-result .pd{
+    padding: 1em 4em;
+    background-color: #020202;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.to-render{
+    position: relative;
+}
+
+.to-render h4{
+    display: inline-block;
+    padding: 0.4em 2em;
+    border-radius: 20px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    background-color: #969696;
+}
+
+.country{
+    text-align: center;
+}
+ .country h4{
+     display: inline-block;
+     margin: 0.4em 1em;
+     padding: 0.4em 2em;
+     border-radius: 10px;
+     background-color: rgb(46, 36, 26);
+ }
